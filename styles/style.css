@@ -34,7 +34,6 @@ body {
     background-color: var(--main-background-color);
 }
 
-
 .container {
     max-width: 1230px;
     width: 100%;
@@ -150,7 +149,7 @@ button {
     margin-bottom: 20px;
 }
 
-.title-box .form-form {
+.title-box .form-button {
     display: inline-block;
     text-align: center;
 }
