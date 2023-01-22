@@ -134,7 +134,7 @@ button {
 }
 
 .title-section {
-    padding-top: 70px;
+    padding: 70px 0;
 }
 
 .main-title {
@@ -162,10 +162,11 @@ button {
 }
 
 .section-tools {
+
     position: relative;
     z-index: 1;
 
-    padding-bottom: 60px;
+    padding: 70px 0;
 }
 
 .section-tools::after {
@@ -187,7 +188,8 @@ button {
 
     color: var(--title-font-color);
 
-    padding: 99px 250px 50px 250px;
+    padding: 0 230px;
+    margin-bottom: 50px;
 }
 
 .tools-item-title {
@@ -244,6 +246,8 @@ button {
 .main-footer {
     padding-top: 70px;
     padding-bottom: 70px;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+
 }
 
 .flex-box-footer {
